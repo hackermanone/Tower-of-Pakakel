@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Level5()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Level4.\r\n\ \r\n
+comment1.params=player\ invisPlayer\ arrow\ enemyIcon
+comment1.target=Level5(Player,\ InvisiblePlayer,\ Arrow,\ EnemiesIcon)
+comment2.params=
+comment2.target=void\ prepare()
+numComments=3

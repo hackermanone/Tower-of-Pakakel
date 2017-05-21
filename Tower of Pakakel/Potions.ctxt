@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Act\ -\ do\ whatever\ the\ Potions\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.params=
+comment1.target=void\ updatePlayer()
+comment1.text=\r\n\ Updates\ the\ status\ of\ the\ player\r\n
+comment2.params=
+comment2.target=void\ drinkPotion()
+comment2.text=\r\n\ Checks\ the\ ID\ of\ the\ potion\ picked\ up\ and\ then\ runs\ the\ method\ accordingly\ based\ on\ the\ type\ of\ item\ picked\ up.\r\n
+numComments=3

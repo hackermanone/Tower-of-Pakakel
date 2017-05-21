@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HiddenDoorTiles()
+comment0.text=\r\n\ Constructor\ for\ HiddenDoorTiles.\ \ This\ is\ only\ here\ to\ help\ identify\ the\ tile\ so\ it\ can\ be\ saved.\ \ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ HiddenDoorTiels\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\ Basically\ just\ removes\ the\ object\ after\ it\ has\r\n\ been\ touched\ by\ invisiblePlayer.\ \r\n
+numComments=2

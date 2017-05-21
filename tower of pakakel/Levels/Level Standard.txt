@@ -1,0 +1,194 @@
+    /**
+     * Constructor for objects of class Level.
+     * 
+     */
+    public Level()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(24, 16, 40); 
+    }
+
+    public Level(Player player,InvisiblePlayer invisPlayer,Arrow arrow, EnemiesIcon enemyIcon)
+    {
+        super(24,16,40);
+        level = ;
+        bgm = new GreenfootSound(".mp3");
+        prepare();
+        addObject(player,2,13);
+        addObject(invisPlayer,2,13);
+        addObject(arrow,2,14);
+        addObject(enemyIcon,0,0) ; 
+    }
+
+    /**
+     * Prepare the world for the start of the program. That is: create the initial
+     * objects and add them to the world.
+     */
+    private void prepare()
+    {
+        bgm.playLoop();
+        BloodyWoodenFloor bloodywoodenfloor = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor, 0, 15);
+        BloodyWoodenFloor bloodywoodenfloor2 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor2, 0, 14);
+        BloodyWoodenFloor bloodywoodenfloor3 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor3, 0, 13);
+        BloodyWoodenFloor bloodywoodenfloor4 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor4, 0, 12);
+        BloodyWoodenFloor bloodywoodenfloor5 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor5, 0, 11);
+        BloodyWoodenFloor bloodywoodenfloor6 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor6, 0, 10);
+        BloodyWoodenFloor bloodywoodenfloor7 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor7, 0, 9);
+        BloodyWoodenFloor bloodywoodenfloor8 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor8, 0, 8);
+        BloodyWoodenFloor bloodywoodenfloor9 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor9, 0, 7);
+        BloodyWoodenFloor bloodywoodenfloor10 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor10, 0, 6);
+        BloodyWoodenFloor bloodywoodenfloor11 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor11, 0, 4);
+        BloodyWoodenFloor bloodywoodenfloor12 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor12, 0, 5);
+        BloodyWoodenFloor bloodywoodenfloor13 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor13, 0, 3);
+        BloodyWoodenFloor bloodywoodenfloor14 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor14, 0, 2);
+        BloodyWoodenFloor bloodywoodenfloor15 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor15, 0, 1);
+        BloodyWoodenFloor bloodywoodenfloor16 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor16, 1, 0);
+        BloodyWoodenFloor bloodywoodenfloor17 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor17, 0, 0);
+        BloodyWoodenFloor bloodywoodenfloor18 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor18, 2, 0);
+        BloodyWoodenFloor bloodywoodenfloor19 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor19, 3, 0);
+        BloodyWoodenFloor bloodywoodenfloor20 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor20, 4, 0);
+        BloodyWoodenFloor bloodywoodenfloor21 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor21, 5, 0);
+        BloodyWoodenFloor bloodywoodenfloor22 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor22, 6, 0);
+        BloodyWoodenFloor bloodywoodenfloor23 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor23, 7, 0);
+        BloodyWoodenFloor bloodywoodenfloor24 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor24, 9, 0);
+        BloodyWoodenFloor bloodywoodenfloor25 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor25, 8, 0);
+        BloodyWoodenFloor bloodywoodenfloor26 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor26, 13, 0);
+        BloodyWoodenFloor bloodywoodenfloor27 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor27, 12, 0);
+        BloodyWoodenFloor bloodywoodenfloor28 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor28, 11, 0);
+        BloodyWoodenFloor bloodywoodenfloor29 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor29, 10, 0);
+        BloodyWoodenFloor bloodywoodenfloor30 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor30, 15, 0);
+        BloodyWoodenFloor bloodywoodenfloor31 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor31, 14, 0);
+        BloodyWoodenFloor bloodywoodenfloor32 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor32, 17, 0);
+        BloodyWoodenFloor bloodywoodenfloor33 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor33, 16, 0);
+        BloodyWoodenFloor bloodywoodenfloor34 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor34, 19, 0);
+        BloodyWoodenFloor bloodywoodenfloor35 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor35, 18, 0);
+        BloodyWoodenFloor bloodywoodenfloor36 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor36, 22, 0);
+        BloodyWoodenFloor bloodywoodenfloor37 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor37, 21, 0);
+        BloodyWoodenFloor bloodywoodenfloor38 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor38, 20, 0);
+        BloodyWoodenFloor bloodywoodenfloor39 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor39, 23, 0);
+        BloodyWoodenFloor bloodywoodenfloor40 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor40, 23, 1);
+        BloodyWoodenFloor bloodywoodenfloor41 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor41, 23, 2);
+        BloodyWoodenFloor bloodywoodenfloor42 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor42, 23, 3);
+        BloodyWoodenFloor bloodywoodenfloor43 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor43, 23, 4);
+        BloodyWoodenFloor bloodywoodenfloor44 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor44, 23, 5);
+        BloodyWoodenFloor bloodywoodenfloor45 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor45, 23, 6);
+        BloodyWoodenFloor bloodywoodenfloor46 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor46, 23, 7);
+        BloodyWoodenFloor bloodywoodenfloor47 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor47, 23, 8);
+        BloodyWoodenFloor bloodywoodenfloor48 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor48, 23, 10);
+        BloodyWoodenFloor bloodywoodenfloor49 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor49, 23, 9);
+        BloodyWoodenFloor bloodywoodenfloor50 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor50, 23, 11);
+        BloodyWoodenFloor bloodywoodenfloor51 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor51, 23, 12);
+        BloodyWoodenFloor bloodywoodenfloor52 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor52, 23, 14);
+        BloodyWoodenFloor bloodywoodenfloor53 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor53, 23, 13);
+        BloodyWoodenFloor bloodywoodenfloor54 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor54, 23, 15);
+        BloodyWoodenFloor bloodywoodenfloor55 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor55, 22, 15);
+        BloodyWoodenFloor bloodywoodenfloor56 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor56, 21, 15);
+        BloodyWoodenFloor bloodywoodenfloor57 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor57, 20, 15);
+        BloodyWoodenFloor bloodywoodenfloor58 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor58, 19, 15);
+        BloodyWoodenFloor bloodywoodenfloor59 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor59, 18, 15);
+        BloodyWoodenFloor bloodywoodenfloor60 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor60, 16, 15);
+        BloodyWoodenFloor bloodywoodenfloor61 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor61, 17, 15);
+        BloodyWoodenFloor bloodywoodenfloor62 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor62, 15, 15);
+        BloodyWoodenFloor bloodywoodenfloor63 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor63, 14, 15);
+        BloodyWoodenFloor bloodywoodenfloor64 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor64, 13, 15);
+        BloodyWoodenFloor bloodywoodenfloor65 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor65, 12, 15);
+        BloodyWoodenFloor bloodywoodenfloor66 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor66, 11, 15);
+        BloodyWoodenFloor bloodywoodenfloor67 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor67, 10, 15);
+        BloodyWoodenFloor bloodywoodenfloor68 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor68, 9, 15);
+        BloodyWoodenFloor bloodywoodenfloor69 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor69, 8, 15);
+        BloodyWoodenFloor bloodywoodenfloor70 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor70, 7, 15);
+        BloodyWoodenFloor bloodywoodenfloor71 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor71, 6, 15);
+        BloodyWoodenFloor bloodywoodenfloor72 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor72, 5, 15);
+        BloodyWoodenFloor bloodywoodenfloor73 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor73, 4, 15);
+        BloodyWoodenFloor bloodywoodenfloor74 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor74, 3, 15);
+        BloodyWoodenFloor bloodywoodenfloor75 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor75, 2, 15);
+        BloodyWoodenFloor bloodywoodenfloor76 = new BloodyWoodenFloor();
+        addObject(bloodywoodenfloor76, 1, 15);
+        Hole hole = new Hole() ;
+        addObject(hole, 2, 14) ; 
+        player = new Player();
+        addObject(player, 2, 13);
+        arrow = new Arrow();
+        addObject(arrow,2,12);
+        invisPlayer = new InvisiblePlayer();
+        addObject(invisPlayer, 2,13);
+        enemyIcon = new EnemiesIcon() ; 
+        addObject(enemyIcon, 0, 0) ; 
+        DisplayText text = new DisplayText(player);
+        addObject(text,2,0);	
+    }

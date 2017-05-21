@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=text1\ lengthUp
+comment0.target=StoryTiles(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ StoryTiles\ class.\ lengthUp\ \=\ 70\ is\ approximately\ 1\ second.\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ StoryTiles\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\ \ This\ sets\ how\ long\ the\ text\ will\ be\ displayed\r\n
+comment2.params=
+comment2.target=void\ showText()
+comment2.text=\r\n\ This\ just\ displays\ the\ text.\ \ \r\n
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Altar()
+comment1.params=
+comment1.target=void\ saveMapOG()
+comment1.text=\r\n\ Saving\ map\ +\ user\ info\ Version\ 1\r\n
+comment2.params=
+comment2.target=void\ saveMap2()
+comment2.text=\r\n\ Saving\ map\ and\ user\ info\ version\ 2.\r\n
+comment3.params=
+comment3.target=void\ saveMap()
+comment3.text=\r\n\ Saves\ user\ info\ (stats,\ inventory,\ equipment)\ and\ the\ current\ state\ of\ the\ map\ to\ a\ text\ file.\r\n
+comment4.params=file\ line
+comment4.target=void\ writeToFile(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Writes\ a\ String\ as\ one\ line\ to\ a\ target\ .txt\ file\r\n\ \r\n\ @param\ \ \ file\ \ \ \ Name\ of\ the\ file\ to\ be\ written\ to\ (+.txt)\r\n\ @param\ \ \ line\ \ \ \ The\ string\ to\ be\ written\ to\ the\ text\ file\r\n
+comment5.params=
+comment5.target=void\ saveUserAssets()
+comment5.text=\r\n\ (For\ the\ first\ 4\ lines\ of\ the\ savefile\!)\ Save\ the\ player's\ stats,\ the\ level\ the\ player\ saved\ on,\ their\ inventory,\ and\ their\ equipment\ (armour,weapons)\r\n
+numComments=6

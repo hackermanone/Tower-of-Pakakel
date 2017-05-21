@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Arrow()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Arrow\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=atkOrDef
+comment2.target=void\ changeTo(boolean)
+comment2.text=\r\n\ Used\ by\ controller\ to\ change\ image\ to\ sword\ or\ shield\ icon\ during\ battle\r\n\ True\ representing\ sword,\ and\ false\ representing\ shield\r\n
+comment3.params=
+comment3.target=void\ revertImage()
+comment3.text=\r\n\ Used\ to\ change\ arrow\ image\ to\ an\ invisible\ picture\ \r\n
+numComments=4

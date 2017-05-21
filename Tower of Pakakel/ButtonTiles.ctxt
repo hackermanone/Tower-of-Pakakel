@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ButtonTiles()
+comment0.text=\r\n\ Constructor\ for\ ButtonTiles.\ \ This\ is\ only\ here\ to\ help\ identify\ the\ tile\ so\ it\ can\ be\ saved.\ \ \r\n
+comment1.params=x2\ y2
+comment1.target=ButtonTiles(int,\ int)
+comment1.text=\r\n\ Create\ a\ new\ button\ tile,\ specify\ the\ coordinates\ of\ the\ hidden\ door\ relative\ to\ the\ button\r\n\ Specify\ -y\ is\ north\ of\ the\ button,\ +y\ south,\ +x\ is\ east,\ and\ -x\ is\ west\r\n\ @param\ int\ x,\ int\ y\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ HiddenDoorTiles\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=remove
+comment3.target=void\ activateButton(boolean)
+comment3.text=\r\n\ Basically\ the\ act\ method.\ \ When\ this\ is\ pressed\ it\ uses\ this\ code.\ \r\n
+comment4.params=
+comment4.target=int\ getXTarget()
+comment4.text=\r\n\ Returns\ the\ x\ value\ \r\n
+comment5.params=
+comment5.target=int\ getYTarget()
+comment5.text=\r\n\ Returns\ the\ y\ value\r\n
+numComments=6

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EndScreen()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ EndScreen.\r\n\ \r\n
+comment1.params=player\ invisPlayer\ arrow\ enemyIcon
+comment1.target=EndScreen(Player,\ InvisiblePlayer,\ Arrow,\ EnemiesIcon)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Level6.\r\n\ \r\n
+numComments=2

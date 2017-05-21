@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DisplayText()
+comment1.params=player1
+comment1.target=DisplayText(Player)
+comment1.text=\r\n\ Creates\ a\ display\ text\ showing\ the\ players\ stats\r\n\ @param\ \ \ player1\ checks\ that\ specific\ players\ stats\ and\ displays\ them\r\n
+comment2.params=text
+comment2.target=DisplayText(java.lang.String)
+comment2.text=\ \r\n\ Create\ a\ new\ display\ text\ with\ the\ given\ text\ and\ places\ it\ with\ a\ colored\ background\r\n\ \r\n\ @param\ text\ the\ text\ to\ be\ used\ in\ the\ DisplayText\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ DisplayText\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=text
+comment4.target=void\ changeText(int)
+comment5.params=text
+comment5.target=void\ changeText(java.lang.String)
+comment6.params=text\ colour1\ colour2\ colour3
+comment6.target=void\ changeTextColour(java.lang.String,\ int,\ int,\ int)
+comment6.text=\ \r\n\ Changes\ the\ text\ with\ the\ given\ string\ and\ 3\ integers\ that\ determine\ the\ colour\ of\ the\ background\r\n\ \r\n\ @param\ \ \ text\ \ \ \ The\ text\ to\ be\ used\ in\ the\ displayText\r\n\ @param\ colour1\ the\ first\ colour\ that\ determines\ the\ overall\ background\r\n\ @param\ colour2\ the\ second\ colour\ that\ determines\ the\ overall\ background\r\n\ @param\ colour3\ the\ third\ colour\ that\ determines\ the\ overall\ background\r\n
+comment7.params=text
+comment7.target=void\ objectText(java.lang.String)
+comment8.params=
+comment8.target=void\ update()
+comment8.text=\r\n\ Updates\ the\ players\ stats\ to\ be\ used\ for\ displaying\r\n
+numComments=9

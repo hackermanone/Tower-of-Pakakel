@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TrapTiles()
+comment0.text=\r\n\ Constructor\ for\ TrapTiles.\ \ This\ is\ only\ here\ to\ help\ identify\ the\ tile\ so\ it\ can\ be\ saved.\ \ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Traptiles\ is\ as\ the\ name\ states\ a\ tile\ which\ is\ a\ trap.\ \ Once\ the\ player\ touches\ this\ they\ lose\ health\ \r\n\ and\ the\ trap\ is\ removed.\ \ \r\n
+numComments=2

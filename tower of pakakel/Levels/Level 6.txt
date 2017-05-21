@@ -1,0 +1,209 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Level1 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Level6 extends Controller
+{
+    /**
+     * Constructor for objects of class Level6.
+     * 
+     */
+    public Level6(Player player,InvisiblePlayer invisPlayer,Arrow arrow, EnemiesIcon enemyIcon)
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(24 , 16, 40); 
+    }
+
+    private void prepare()
+    {
+        bgm.playLoop();
+        UnbreakableStoneWall unbreakablestonewall = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall, 0, 15);
+        UnbreakableStoneWall unbreakablestonewall2 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall2, 1, 15);
+        UnbreakableStoneWall unbreakablestonewall3 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall3, 2, 15);
+        UnbreakableStoneWall unbreakablestonewall4 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall4, 3, 15);
+        UnbreakableStoneWall unbreakablestonewall5 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall5, 4, 15);
+        UnbreakableStoneWall unbreakablestonewall6 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall6, 5, 15);
+        UnbreakableStoneWall unbreakablestonewall7 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall7, 6, 15);
+        UnbreakableStoneWall unbreakablestonewall8 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall8, 7, 15);
+        UnbreakableStoneWall unbreakablestonewall9 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall9, 8, 15);
+        UnbreakableStoneWall unbreakablestonewall10 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall10, 9, 15);
+        UnbreakableStoneWall unbreakablestonewall11 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall11, 10, 15);
+        UnbreakableStoneWall unbreakablestonewall12 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall12, 11, 15);
+        UnbreakableStoneWall unbreakablestonewall13 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall13, 12, 15);
+        UnbreakableStoneWall unbreakablestonewall14 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall14, 13, 15);
+        UnbreakableStoneWall unbreakablestonewall15 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall15, 14, 15);
+        UnbreakableStoneWall unbreakablestonewall16 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall16, 15, 15);
+        UnbreakableStoneWall unbreakablestonewall17 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall17, 16, 15);
+        UnbreakableStoneWall unbreakablestonewall18 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall18, 17, 15);
+        UnbreakableStoneWall unbreakablestonewall19 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall19, 18, 15);
+        UnbreakableStoneWall unbreakablestonewall20 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall20, 19, 15);
+        UnbreakableStoneWall unbreakablestonewall21 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall21, 20, 15);
+        UnbreakableStoneWall unbreakablestonewall22 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall22, 21, 15);
+        UnbreakableStoneWall unbreakablestonewall23 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall23, 22, 15);
+        UnbreakableStoneWall unbreakablestonewall24 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall24, 23, 15);
+        UnbreakableStoneWall unbreakablestonewall25 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall25, 0, 0);
+        UnbreakableStoneWall unbreakablestonewall26 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall26, 0, 1);
+        UnbreakableStoneWall unbreakablestonewall27 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall27, 0, 2);
+        UnbreakableStoneWall unbreakablestonewall28 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall28, 0, 3);
+        UnbreakableStoneWall unbreakablestonewall29 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall29, 0, 4);
+        UnbreakableStoneWall unbreakablestonewall30 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall30, 0, 5);
+        UnbreakableStoneWall unbreakablestonewall31 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall31, 0, 6);
+        UnbreakableStoneWall unbreakablestonewall32 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall32, 0, 7);
+        UnbreakableStoneWall unbreakablestonewall33 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall33, 0, 8);
+        UnbreakableStoneWall unbreakablestonewall34 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall34, 0, 9);
+        UnbreakableStoneWall unbreakablestonewall35 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall35, 0, 10);
+        UnbreakableStoneWall unbreakablestonewall36 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall36, 0, 11);
+        UnbreakableStoneWall unbreakablestonewall37 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall37, 0, 12);
+        UnbreakableStoneWall unbreakablestonewall38 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall38, 0, 13);
+        UnbreakableStoneWall unbreakablestonewall39 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall39, 0, 14);
+        UnbreakableStoneWall unbreakablestonewall40 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall40, 1, 0);
+        UnbreakableStoneWall unbreakablestonewall41 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall41, 2, 0);
+        UnbreakableStoneWall unbreakablestonewall42 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall42, 3, 0);
+        UnbreakableStoneWall unbreakablestonewall43 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall43, 4, 0);
+        UnbreakableStoneWall unbreakablestonewall44 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall44, 5, 0);
+        UnbreakableStoneWall unbreakablestonewall45 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall45, 6, 0);
+        UnbreakableStoneWall unbreakablestonewall46 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall46, 7, 0);
+        UnbreakableStoneWall unbreakablestonewall47 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall47, 8, 0);
+        UnbreakableStoneWall unbreakablestonewall48 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall48, 9, 0);
+        UnbreakableStoneWall unbreakablestonewall49 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall49, 10, 0);
+        UnbreakableStoneWall unbreakablestonewall50 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall50, 11, 0);
+        UnbreakableStoneWall unbreakablestonewall51 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall51, 12, 0);
+        UnbreakableStoneWall unbreakablestonewall52 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall52, 13, 0);
+        UnbreakableStoneWall unbreakablestonewall53 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall53, 14, 0);
+        UnbreakableStoneWall unbreakablestonewall54 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall54, 15, 0);
+        UnbreakableStoneWall unbreakablestonewall55 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall55, 16, 0);
+        UnbreakableStoneWall unbreakablestonewall56 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall56, 17, 0);
+        UnbreakableStoneWall unbreakablestonewall57 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall57, 18, 0);
+        UnbreakableStoneWall unbreakablestonewall58 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall58, 19, 0);
+        UnbreakableStoneWall unbreakablestonewall59 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall59, 20, 0);
+        UnbreakableStoneWall unbreakablestonewall60 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall60, 21, 0);
+        UnbreakableStoneWall unbreakablestonewall61 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall61, 22, 0);
+        UnbreakableStoneWall unbreakablestonewall62 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall62, 23, 0);
+        UnbreakableStoneWall unbreakablestonewall63 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall63, 23, 1);
+        UnbreakableStoneWall unbreakablestonewall64 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall64, 23, 2);
+        UnbreakableStoneWall unbreakablestonewall65 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall65, 23, 3);
+        UnbreakableStoneWall unbreakablestonewall66 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall66, 23, 4);
+        UnbreakableStoneWall unbreakablestonewall67 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall67, 23, 5);
+        UnbreakableStoneWall unbreakablestonewall68 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall68, 23, 6);
+        UnbreakableStoneWall unbreakablestonewall69 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall69, 23, 7);
+        UnbreakableStoneWall unbreakablestonewall70 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall70, 23, 8);
+        UnbreakableStoneWall unbreakablestonewall71 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall71, 23, 9);
+        UnbreakableStoneWall unbreakablestonewall72 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall72, 23, 10);
+        UnbreakableStoneWall unbreakablestonewall73 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall73, 23, 11);
+        UnbreakableStoneWall unbreakablestonewall74 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall74, 23, 12);
+        UnbreakableStoneWall unbreakablestonewall75 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall75, 23, 13);
+        UnbreakableStoneWall unbreakablestonewall76 = new UnbreakableStoneWall();
+        addObject(unbreakablestonewall76, 23, 14);
+        StoneWall stonewall28 = new StoneWall();
+        addObject(stonewall28, 9, 6);
+        StoneWall stonewall29 = new StoneWall();
+        addObject(stonewall29, 9, 9);
+        StoneWall stonewall30 = new StoneWall();
+        addObject(stonewall30, 14, 6);
+        StoneWall stonewall31 = new StoneWall();
+        addObject(stonewall31, 14, 9);
+        StoneWall stonewall32 = new StoneWall();
+        addObject(stonewall32, 10, 6);
+        StoneWall stonewall33 = new StoneWall();
+        addObject(stonewall33, 11, 6);
+        StoneWall stonewall34 = new StoneWall();
+        addObject(stonewall34, 12, 6);
+        StoneWall stonewall35 = new StoneWall();
+        addObject(stonewall35, 13, 6);
+        StoneWall stonewall36 = new StoneWall();
+        addObject(stonewall36, 14, 7);
+        StoneWall stonewall37 = new StoneWall();
+        addObject(stonewall37, 14, 8);
+        StoneWall stonewall38 = new StoneWall();
+        addObject(stonewall38, 13, 9);
+        StoneWall stonewall39 = new StoneWall();
+        addObject(stonewall39, 12, 9);
+        StoneWall stonewall40 = new StoneWall();
+        addObject(stonewall40, 11, 9);
+        StoneWall stonewall41 = new StoneWall();
+        addObject(stonewall41, 10, 9);
+        StoneWall stonewall42 = new StoneWall();
+        addObject(stonewall42, 9, 7);
+        StoneWall stonewall43 = new StoneWall();
+        addObject(stonewall43, 9, 8);
+	}
+}

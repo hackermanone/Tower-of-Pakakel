@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=text\ font
+comment0.target=TextButton(java.lang.String,\ int)
+comment1.params=text\ font\ actor
+comment1.target=TextButton(java.lang.String,\ int,\ greenfoot.Actor)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ TextButton\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=text\ font
+comment3.target=void\ prep(java.lang.String,\ int)
+comment4.params=button
+comment4.target=boolean\ hover(TextButton)
+comment5.params=
+comment5.target=void\ invert()
+comment6.params=
+comment6.target=void\ invert2()
+numComments=7
